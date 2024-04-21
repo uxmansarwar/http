@@ -1,0 +1,36 @@
+{
+    "name": "uxmansarwar/http",
+    "description": "Guzzlehttp/guzzle wrapper, single session, single client instance/handler",
+    "keywords": [
+        "http",
+        "rest",
+        "web service",
+        "curl",
+        "client",
+        "HTTP client",
+        "PSR-7",
+        "PSR-18"
+    ],
+    "type": "library",
+    "license": "PUBLIC LICENSE",
+    "autoload": {
+        "psr-4": {
+            "UxmanSarwar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Uxman Sarwar",
+            "email": "uxmansrwr@gmail.com",
+            "homepage": "https://github.com/uxmansarwar"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "php": "^7.4",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
